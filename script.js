@@ -16,7 +16,7 @@ const songs =		['DuongToiChoEmVe',
 					'TinhYeuMauHong'];
 const nameMusic = 	['Đường Tôi Chở Em Về',
 					'Suy Nghĩ Trong Anh',
-					'Tình Yêu Màu Hông']
+					'Tình Yêu Màu Hồng']
 
 // Keep track of song
 let songIndex = 0;
