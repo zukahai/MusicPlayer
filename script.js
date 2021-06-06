@@ -12,9 +12,11 @@ const cover = document.getElementById('cover');
 
 // Song titles
 const songs =		['DuongToiChoEmVe',
-					'SuyNghiTrongAnh'];
+					'SuyNghiTrongAnh',
+					'TinhYeuMauHong'];
 const nameMusic = 	['Đường Tôi Chở Em Về',
-					'Suy Nghĩ Trong Anh']
+					'Suy Nghĩ Trong Anh',
+					'Tình Yêu Màu Hông']
 
 // Keep track of song
 let songIndex = 0;
