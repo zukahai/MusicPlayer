@@ -11,17 +11,20 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 
 // Song titles
-const songs = ['3am', 'chill', 'deep', 'hey', 'relax'];
+const songs =		['DuongToiChoEmVe',
+					'SuyNghiTrongAnh'];
+const nameMusic = 	['Đường Tôi Chở Em Về',
+					'Suy Nghĩ Trong Anh']
 
 // Keep track of song
-let songIndex = 2;
+let songIndex = 0;
 
 // Initially load song details into DOM
 loadSong(songs[songIndex]);
 
 // Update song details
 function loadSong(song) {
-	title.innerText = song;
+	title.innerText = nameMusic[songIndex];
 	audio.src = `music/${song}.mp3`;
 	cover.src = `image/${song}.png`;
 }
